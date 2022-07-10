@@ -117,6 +117,14 @@ nav a:focus {
 }
 
 /* =================
+Links
+================= */
+
+a {
+    color: #1792d2;
+}
+
+/* =================
 Blog Post
 ================= */
 
@@ -128,18 +136,42 @@ Blog Post
 }
 
 .blog-post-header {
+    font-family: 'Lora', sans-serif;
     font-size: 1.5em;
+    line-height: 1.167em;
+    color: #143774;
     margin-top: 0;
 }
 
 .blog-post-info {
+    font-family: 'Lora', sans-serif;
     font-size: 0.875rem;
+    line-height: 1.36em;
+    color: #707070;
 }
 
 .blog-post-text {
+    font-size: 1.125rem;
+    line-height: 1.55em;
+    color: #707070;
 }
 
 .blog-post-link {
+    font-size: 0.875rem;
+    line-height: 1.55em;
+    letter-spacing: 2.8px;
+    text-transform: uppercase;
+    color: #1792d2;
+    text-decoration: none;
+}
+
+.blog-post-featured {
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid #707070;
+}
+
+.blog-post-recent {
+    margin-bottom: 3.25em;
 }
 
 
@@ -178,6 +210,10 @@ Sidebar
     margin: 3.875em 0 1em;
 }
 
+.about-me-wrapper p {
+    color: #143774;
+}
+
 .about-me img {
     width: 100%;
     height: 133px;
@@ -202,8 +238,23 @@ Sidebar
     width: 90%;
 }
 
+.recent-posts-sidebar-wrapper > h2 {
+    font-size: 1.125rem;
+    line-height: 1.33em;
+    color: #143774;
+    text-transform: uppercase;
+}
+
 .recent-posts-sidebar-item {
     margin: 1.344em 0;
+}
+
+.recent-posts-sidebar-item h2 {
+    font-family: 'Lora', sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.55em;
+    color: #143774;
+    font-weight: 400;
 }
 
 .recent-posts-sidebar-rule {
