@@ -28,6 +28,10 @@ h1 {
     margin: 0;
 }
 
+.bold-text {
+    font-weight: 700;
+}
+
 /* =================
 Layout
 ================= */
@@ -58,7 +62,17 @@ header {
     }
 }
 
-/* navigation */
+main {
+    margin: 3.625em 0;
+}
+
+img {
+    width:  100%;
+}
+
+/* =================
+Navigation
+================= */
 
 nav ul {
     list-style: none;
@@ -91,6 +105,7 @@ nav a:focus {
     color: #707070;
 }
 
+
 @media (max-width: 675px) {
     nav ul {
         flex-direction: column;
@@ -99,4 +114,121 @@ nav a:focus {
     nav li {
         margin: .5em 0;
     }
+}
+
+/* =================
+Blog Post
+================= */
+
+.blog-post {
+    margin-top: 1.5em;
+}
+
+.blog-post-img {
+}
+
+.blog-post-header {
+    font-size: 1.5em;
+    margin-top: 0;
+}
+
+.blog-post-info {
+    font-size: 0.875rem;
+}
+
+.blog-post-text {
+}
+
+.blog-post-link {
+}
+
+
+@media (min-width: 550px) and (max-width: 675px) {
+    .blog-post-recent .blog-post-info {
+        text-align: right;
+}
+
+    .blog-post-recent .blog-post-main {
+        margin-top: -2.5em;
+    }
+}
+
+@media (min-width: 675px) {
+    .blog-post-recent {
+        display: flex;
+    }  
+}
+
+/* =================
+Sidebar
+================= */
+
+.main-sidebar > * {
+    border: 20px solid #ebebeb;
+}
+
+.about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me-wrapper {
+    width: 90%;
+    margin: 3.875em 0 1em;
+}
+
+.about-me img {
+    width: 100%;
+    height: 133px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.recent-posts-sidebar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recent-posts-sidebar img {
+    width: 100%;
+    height: 87px;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.recent-posts-sidebar-wrapper {
+    width: 90%;
+}
+
+.recent-posts-sidebar-item {
+    margin: 1.344em 0;
+}
+
+.recent-posts-sidebar-rule {
+    width: 100%;
+    border-bottom: 1px solid #707070;
+    opacity: 0.5;
+}
+
+/* =================
+Footer
+================= */
+
+footer {
+    background:  #143774;
+}
+
+footer p {
+    margin: 0;
+}
+
+.footer-wrapper {
+    text-align: center;
+    font-size: 1.125rem;
+    line-height: 1.55em;
+    color: #fff;
+    opacity: 0.54;
+    padding: 3.33em 0;
 }
