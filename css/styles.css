@@ -195,61 +195,61 @@ Blog Post
 Sidebar
 ================= */
 
-.main-sidebar > * {
+.sidebar > * {
     border: 20px solid #ebebeb;
 }
 
-.about-me {
+.sidebar-about-me {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.about-me-wrapper {
+.sidebar-about-me-wrapper {
     width: 90%;
     margin: 3.875em 0 1em;
 }
 
-.about-me-wrapper p {
+.sidebar-about-me-wrapper p {
     color: #143774;
 }
 
-.about-me img {
+.sidebar-about-me img {
     width: 100%;
     height: 133px;
     object-fit: cover;
     object-position: 50% 50%;
 }
 
-.recent-posts-sidebar {
+.sidebar-recent-posts {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.recent-posts-sidebar img {
+.sidebar-recent-posts img {
     width: 100%;
     height: 87px;
     object-fit: cover;
     object-position: 50% 50%;
 }
 
-.recent-posts-sidebar-wrapper {
+.sidebar-recent-posts-wrapper {
     width: 90%;
 }
 
-.recent-posts-sidebar-wrapper > h2 {
+.sidebar-recent-posts-wrapper > h2 {
     font-size: 1.125rem;
     line-height: 1.33em;
     color: #143774;
     text-transform: uppercase;
 }
 
-.recent-posts-sidebar-item {
+.sidebar-recent-posts-item {
     margin: 1.344em 0;
 }
 
-.recent-posts-sidebar-item h2 {
+.sidebar-recent-posts-item h2 {
     font-family: 'Lora', sans-serif;
     font-size: 1.125rem;
     line-height: 1.55em;
@@ -257,7 +257,7 @@ Sidebar
     font-weight: 400;
 }
 
-.recent-posts-sidebar-rule {
+.sidebar-recent-posts-rule {
     width: 100%;
     border-bottom: 1px solid #707070;
     opacity: 0.5;
